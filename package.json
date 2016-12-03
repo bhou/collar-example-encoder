@@ -1,0 +1,32 @@
+{
+  "name": "collar-example-encoder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhou/collar-example-encoder.git"
+  },
+  "author": "Bo HOU <daily.bhou@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhou/collar-example-encoder/issues"
+  },
+  "homepage": "https://github.com/bhou/collar-example-encoder#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "collar.js": "^0.6.3",
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "collar.js-dev-client": "^0.2.5",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
+  }
+}

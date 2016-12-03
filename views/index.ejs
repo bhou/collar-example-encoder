@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Collar.js DEMO: Encoding and Decoding Service</title>
+  <meta name="description" content="Collar.js Demo">
+  <meta name="author" content="Bo HOU <daily.bhou@gmail.com>">
+
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="css/crumina-fonts.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!--Plugins styles-->
+  <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="css/primary-menu.css">
+  <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css?v=1.0">
+
+  <!--External fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body class=" ">
+
+<% include ./components/header %>
+
+<div class="content-wrapper">
+  <div class="header-spacer"></div>
+  <!-- Main Slider -->
+
+  <div class="container-full-width">
+    <div class="swiper-container main-slider" data-effect="fade" data-autoplay="600000">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide bg-border-color">
+          <div class="container">
+
+            <div class="row table-cell">
+              <div class="col-lg-12">
+                <div class="slider-content align-center">
+                  <h1 class="slider-content-title" data-swiper-parallax="-100">
+                    Another collar.js Demo: A base64 Encoding & Decoding Service
+                  </h1>
+                  <h5 class="slider-content-text c-gray" data-swiper-parallax="-200">
+                    It could be complicate to build large application with multiple components: authentication, subscription, payment, billing, monitoring, administration, etc. With collar.js, all of them are simple. This application is an example ...
+                  </h5>
+                  <div class="main-slider-btn-wrap" data-swiper-parallax="-300">
+                    <a href="http://collarjs.com"
+                      class="btn btn-medium btn--dark btn-hover-shadow">
+                      <span class="text">start a free trial</span>
+                      <span class="semicircle"></span>
+                    </a>
+                    <a href="http://collarjs.com"
+                      class="btn btn-medium btn--dark btn-hover-shadow">
+                      <span class="text">More about Collar.js</span>
+                      <span class="semicircle"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <% include ./components/subscribe_email %>
+
+</div>
+
+<% include ./components/footer %>
+
+<!-- JS Script -->
+<% include ./components/scripts %>
+<!-- ...end JS Script -->
+
+</body>
+</html>
+

@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Collar.js DEMO: Encoding and Decoding Service</title>
+  <meta name="description" content="Collar.js Demo">
+  <meta name="author" content="Bo HOU <daily.bhou@gmail.com>">
+
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="css/crumina-fonts.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!--Plugins styles-->
+  <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="css/primary-menu.css">
+  <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css?v=1.0">
+  
+  <style>
+#error-msg > p {
+  color: red;
+}
+  </style>
+  <!--External fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body class=" ">
+
+<% include ./components/header %>
+
+<div class="content-wrapper">
+  <div class="header-spacer"></div>
+
+  <div class="container-fluid">
+    <div class="shop-user-form pt60">
+
+      <div class="row">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <a href="#" class="item-title active">Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row bg-border-color medium-padding80">
+        <div class="container">
+          <div class="contact-form">
+            <form class="shop-user-form-return">
+              <div class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                  <p>Register A New Encodar Account</p>
+                </div>
+                <div id="error-msg" class="col-lg-6 col-lg-offset-3">
+                  <p style="display:none;"></p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                  <input id="email" class="email input-standard-grey" placeholder="Email" type="text">
+                </div>
+
+                <div class="col-lg-6 col-lg-offset-3">
+                  <input id="password" class="email input-standard-grey" placeholder="Password" type="password">
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                  <div class="login-btn-wrap">
+                    <button id="register" class="btn btn-medium btn--dark btn-hover-shadow">
+                      <span class="text">Register</span>
+                      <span class="semicircle"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                  <a href="/login" class="helped">Already have an account?</a>
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+<% include ./components/footer %>
+
+<!-- JS Script -->
+<% include ./components/scripts %>
+<script src="js/modules/register.js"></script>
+<!-- ...end JS Script -->
+
+</body>
+</html>
+
+
